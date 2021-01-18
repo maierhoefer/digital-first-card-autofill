@@ -106,6 +106,7 @@ function fillUpForm() {
     // var cardNumber = "5436 0310 3060 6378";
 	var cardNumber = "4242 4242 4242 4242";   // added Visa cardNumber
     document.getElementById("cc-number").value = cardNumber;
+	document.getElementById("cc-name").value = "John Doe";
     document.getElementById("cc-exp-month").value = "10";
     document.getElementById("cc-exp-year").value = "2024";
     document.getElementById("cc-csc").value = "257";
